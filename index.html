@@ -99,7 +99,7 @@ ul li a:hover{
 
     
 }
-}@media(max-width: 740px){
+@media(max-width: 740px){
     .footer-col{
        n-bottom: 30px;
         text-align: center;
@@ -115,19 +115,69 @@ ul li a:hover{
         width: 100%;
     }
 }
-  
-</style>
-<style>
-  /* slidebar */
+      /* slidebar */
   .carousel-inner img {
     width: 100%;
     height: 800px;
+  }
 
+.navbar navbar-expand-lg bg-body-tertiary{
+    position: fixed;
+  }
+  .label h5 {
+margin-left: 10%;
+  }
+  .button{
+    transition-delay: 5s;
+  
+  }
+  .header{
+    background-size: cover; 
+  }
 </style>
 
-<body>
 
-<?php include 'menu.php'; ?>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color:navy;">  
+  <div class="container-fluid">
+  <img src="image/ad.png" width="85px" height="70px" style="margin-right: 20px;">
+  <div  class="label">
+  
+  <h5 style="color: white;"style="margin-left: 50px;">+91 98256 75267 </h5>
+  </div>
+  <a href="https://maps.app.goo.gl/bXFschH66WpwrHC66 "><img src="image/google-maps.png" height="28px" width="28px" style=" margin-bottom: 5px;"></a>
+  <h5 style="margin-left: 4px; color: white;">Ahmdabad, Gujarat</h5>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="about.php" style="margin-right: 12px;">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.php" style="margin-right: 10px;">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="room.php" style="margin-right: 8px;">ROOM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="room.php" style="margin-right: 6px;">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.php" style="margin-right: 4px;">CONTACT</a>
+        </li>
+      </ul>
+      </div>
+      </div>
+      <div class="button">
+        <a href="form.php" class="btn btn-danger">Enquiry Now</a>
+      </div>
+    
+   
+</nav>
+
 
 <div class="main">
 
